@@ -1,0 +1,159 @@
+new Vue({
+    el:'#actor',
+    data:{
+        actorList:[
+            {
+                'pic':'images/luben.webp',
+                'name':'鲁本·弗雷斯彻',
+                'job':'导演',
+            },
+            {
+                'pic':'images/tom.webp',
+                'name':'汤姆·哈迪',
+                'job':'迪·布洛克/毒液 Eddie Brock / Venom',
+            },
+            {
+                'pic':'images/mechiel.webp',
+                'name':'米歇尔·威廉姆斯',
+                'job':'安妮·韦英 Anne Weying',
+            },
+            {
+                'pic':'images/lizz.webp',
+                'name':'里兹·阿迈德',
+                'job':'德雷克博士 Dr. Carlton Drake',
+            },
+            {
+                'pic':'images/sikete.webp',
+                'name':'斯科特·黑兹',
+                'job':'Security Chief Roland Treece',
+            },
+            {
+                'pic':'images/reid.webp',
+                'name':'瑞德·斯科特',
+                'job':'Dr. Dan Lewis',
+            },
+            {
+                'pic':'images/zhenni.webp',
+                'name':'珍妮·斯蕾特',
+                'job':'Dr. Dora Skirth',
+            },
+            {
+                'pic':'images/meiluola.webp',
+                'name':'梅罗拉·沃特斯',
+                'job':'Homeless Woman Maria',
+            },
+            {
+                'pic':'images/lee.webp',
+                'name':'米歇尔·李',
+                'job':'',
+            },
+        ],
+    },
+})
+
+let side = new Vue({
+    el:'#side',
+    data:{
+        productList:[
+            {
+                'pic':'images/spiderman.jpg',
+                'name':'蜘蛛侠毒液纸牌',
+                'price':'28',
+                'rPrice':'58',
+            },
+            {
+                'pic':'images/qver.jpg',
+                'name':'Q版遮阳板纸巾盒',
+                'price':'89',
+                'rPrice':'89',
+            },
+            {
+                'pic':'images/bag.jpg',
+                'name':'卡哇伊遮阳板套',
+                'price':'39',
+                'rPrice':'39',
+            },
+            {
+                'pic':'images/3dglasses.jpg',
+                'name':'IMAX3D眼镜',
+                'price':'39',
+                'rPrice':'168',
+            },
+            {
+                'pic':'images/sticker.jpg',
+                'name':'3D眼镜贴6次装',
+                'price':'19.9',
+                'rPrice':'59',
+            },
+            {
+                'pic':'images/fangxiangp.jpg',
+                'name':'卡哇伊方向盘套',
+                'price':'99',
+                'rPrice':'99',
+            },
+            {
+                'pic':'images/three.jpg',
+                'name':'卡哇伊三件套',
+                'price':'119',
+                'rPrice':'119',
+            },
+            {
+                'pic':'images/ed3f4dfd9632f9aff4071eeae5d18b8e131139.jpg',
+                'name':'猫眼3D眼镜夹片',
+                'price':'29.9',
+                'rPrice':'69',
+            },
+            {
+                'pic':'images/49494f3816a550ea7d090ec65044426795359.jpg',
+                'name':'Q版遮阳板CD套',
+                'price':'59',
+                'rPrice':'59',
+            },
+        ],
+    },
+})
+
+
+let more = new Vue({
+    el:'#more-movie',
+    data:{
+        movieList:[
+            {
+                'pic':'images/newmutants.jpg',
+                'name':'X战警：新变种人',
+            },
+            {
+                'pic':'images/690fe6cf6136ff29ade8d0fc5ec161e974121.jpg',
+                'name':'蜘蛛侠：英雄远征',
+            },
+            {
+                'pic':'images/859783292328567a360c5ffb2e947228147746.jpg',
+                'name':'银河护卫队3',
+            },
+            {
+                'pic':'images/b349982a1c2bbf01407696e7d95066cb580557.jpg',
+                'name':'海王',
+            },
+            {
+                'pic':'images/99cfdd17abc95a9f544da3f9a3b26316204075.jpg',
+                'name':'X战警：黑凤凰',
+            },
+            {
+                'pic':'images/3669bbe4c1f2945b2e83bff9eeed332e142181.jpg',
+                'name':'黑寡妇',
+            },
+            {
+                'pic':'images/0607526181d31653e9b37b4b9f68bfcc129032.jpg',
+                'name':'正义联盟2',
+            },
+            {
+                'pic':'images/105a156788f15627b4c8618ad7913bd749438.jpg',
+                'name':'蝙蝠侠',
+            },
+            {
+                'pic':'images/45599c9d5c4c6323c7d821e07597773c67458.jpg',
+                'name':'钢骨',
+            },
+        ],
+    },
+})
